@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  color: rgb(0, 0, 0);
+}
+
+.container-page {
+  height: 93vh;
+  width: 28vw;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.login-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+}
+
+form {
+  width: 100%;
+  margin: auto;
+}
+
+.input-line-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+label {
+  font-size: 12px;
+}
+
+.nombre-input-line,
+.apellido1-input-line,
+.apellido2-input-line,
+.email-input-line,
+.login-input-line,
+.pass-input-line {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #000000;
+  outline: none;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.877);
+}
+
+.button-register {
+  width: 100%;
+  height: 45px;
+  border-radius: 55px;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-register:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 8px #ffffffa4;
+}
+
+.error {
+  color: #fe5f55;
+  font-size: 12px;
+}
+
+.invalid {
+  border-color: #fe5f55 !important;
+}
+
+.valid {
+  border-color: #50ce67 !important;
+}
+
+/*Efecto nieve*/
+
+
+
+
+
+
